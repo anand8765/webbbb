@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width:320px) {
+            body{
+                background-color: aquamarine;
+            }
+            .container{
+                width:320px;
+                height: 100%;
+                
+            }
+            .card{
+                position: absolute;
+                top: 25%;
+                left: 5%;
+                
+                
+            }
+            .block{
+               
+
+            }
+            img{
+                width: 60%;
+                height: 60%;
+                border-radius: 40px 20px;
+               
+            }
+            .btn{
+                display: flex;
+                grid-template-rows: repeat(1,1fr);
+                column-gap:60px ;
+                margin-left: 85px;
+
+            }
+            button:nth-child(1){
+                background-color:rgb(6, 255, 6);
+                border-radius: 100%;
+                padding: 5px;
+            }
+            button:nth-child(2){
+                background-color: red;
+                border-radius: 100%;
+                padding: 5px;
+            }
+            button a{
+                text-decoration: none;
+                color: black;
+                font-size: larger;
+                font-weight: 600;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        
+        <div class="card">
+        <div class="block">
+            <center>
+            <img src="/img/0000.jpg" width="60%" height="60%" alt="">
+            <p>Are you a time traveler? Because I see you in my future</p>
+        </div>
+        </center>
+            <div class="btn">
+               <button type="submit"><a href="images.html"> Yes</a></button>
+               <button type="reset"><a href="love03.html">No</a></button>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
